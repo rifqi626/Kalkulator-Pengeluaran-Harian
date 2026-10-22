@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef5ef;
+    margin: 0;
+    padding: 25px 15px;
+    color: #26352b;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    color: #218653;
+    text-align: center;
+}
+
+.container > p {
+    text-align: center;
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 18px 0;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #00000010;
+}
+
+h2 {
+    color: #218653;
+    font-size: 20px;
+}
+
+label {
+    display: block;
+    margin: 12px 0 6px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    border: 1px solid #ccd8ce;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+button {
+    background-color: #218653;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #17683e;
+}
+
+.card > button,
+form button {
+    width: 100%;
+}
+
+ul {
+    padding-left: 22px;
+}
+
+li {
+    margin: 12px 0;
+    overflow-wrap: anywhere;
+}
+
+.hapus {
+    background-color: #d94343;
+}
+
+.hapus:hover {
+    background-color: #b52e2e;
+}
+
+#pesan {
+    font-weight: bold;
+}
+
+@media (max-width: 450px) {
+    body {
+        padding: 15px 10px;
+    }
+
+    .card {
+        padding: 15px;
+    }
+}
